@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/my-picture.jpg" type="image/x-icon">
+    <title>Vinod Kumar - Portfolio Live</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div>
+            <p class="logo"><i class="fa fa-chevron-left"></i><i class="slesh "> /</i> Vinod <span>Kumar</span> <i
+                    class="fa fa-chevron-right"></i></p>
+        </div>
+        <div class="nav-list">
+            <ul class="nav-ul">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contect</a></li>
+            </ul>
+        </div>
+        <div class="right-box">
+            <button>Hire Me</button>
+            <i onclick="menuCliked()" class="fa fa-list menu-icon"></i>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="hero">
+            <div class="main-content">
+                <h3>Welcome to My Portfolio</h3>
+                <h2>I'm <span>Vinod Kumar</span>, a passionate web developer with a knack for creating stunning
+                    websites.</h2>
+                <p>Explore my projects and get to know me better.</p>
+                <button class="btn">View Projects</button>
+            </div>
+            <div class="image-content">
+                <img src="images/header.png" alt="Portfolio Image" class="portfolio-image">
+            </div>
+        </div>
+    </div>
+
+    <section class="about container " id="about">
+        <div class="container about-container">
+            <div class="about-text">
+                <h2>About <span>Me</span></h2>
+                <p>
+                    I'm a passionate web developer with a love for crafting beautiful and functional digital
+                    experiences.
+                    I specialize in frontend development using modern frameworks like React and Vue, and also enjoy
+                    working on
+                    backend systems with Node.js and Express.
+                </p>
+                <p>
+                    With a strong eye for design and attention to detail, I bridge the gap between design and
+                    development.
+                    I thrive in collaborative environments and love solving real-world problems through code.
+                </p>
+                <div class="about-info">
+                    <div><strong>Experience:</strong> 3+ years</div>
+                    <div><strong>Location:</strong> Remote / Global</div>
+                    <div><strong>Available for:</strong> Freelance & Full-time</div>
+                </div>
+                <button class="btn">Download Resume</button>
+            </div>
+            <div class="about-image">
+                <img src="images/my-picture.jpg" alt="Your Photo" />
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="projects">
+        <div class="container">
+            <h2 class="section-title">My <span>Projects</span></h2>
+            <p class="section-subtitle">Here are a few of the web apps and websites I've built recently.</p>
+
+            <div class="project-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <img src="images/project1.jpg" alt="Project 1 Screenshot">
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive portfolio site built using HTML, CSS, and JavaScript.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <img src="images/project2.jpg" alt="Project 2 Screenshot">
+                    <h3>Task Manager App</h3>
+                    <p>Built with React and Firebase for authentication and real-time updates.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <img src="images/project3.jpg" alt="Project 3 Screenshot">
+                    <h3>E-commerce Store</h3>
+                    <p>Full-stack app using MERN (MongoDB, Express, React, Node.js).</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <h2>Contact <span>Me</span></h2>
+                <p>Feel free to reach out for collaborations or just a friendly hello! 👋</p>
+                <div class="info-details">
+                    <p><strong>Email:</strong> <a href="mailto:you@example.com">you@example.com</a></p>
+                    <p><strong>Phone:</strong> <a href="tel:+123456789">+1 234 567 89</a></p>
+                    <div class="social-links">
+                        <a href="#" target="_blank">GitHub</a>
+                        <a href="#" target="_blank">LinkedIn</a>
+                        <a href="#" target="_blank">Twitter</a>
+                    </div>
+                    <a href="images/resume.pdf" download><button>Download Resume</button></a>
+                </div>
+            </div>
+
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-container">
+            <p>© 2025 Vinod kumar. All rights reserved.</p>
+            <div class="footer-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-github"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
